@@ -3,5 +3,12 @@ fun main(args: Array<String>) {
         if (x is String) {
             println(x.length)
         }
+
+        if (x is Int) {
+            println(x.inc())
+        }
     }
+
+    testSmartCast("Joe")
+    testSmartCast(9)
 }
