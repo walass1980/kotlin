@@ -1,5 +1,3 @@
-package chapter06;
-
 public class Container {
     private String content;
 
