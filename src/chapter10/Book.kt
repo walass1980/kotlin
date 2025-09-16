@@ -18,10 +18,10 @@ fun main() {
     val (longBooks, shortBooks) = books.partition { it.pages > 400 }
 
     //sorterBy
-    /*
+
     val booksByYear = books.sortedBy { it.year }
     println("Books sorted by year: ${booksByYear.map { "${it.title} (${it.year})" }}")
-     */
+
 
     //associatedBy
 
