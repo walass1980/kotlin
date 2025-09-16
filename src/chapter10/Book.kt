@@ -24,25 +24,25 @@ fun main() {
      */
 
     //associatedBy
-    /*
+
     val booksByAuthor = books.associateBy { it.author }
     println("Books by author: ${booksByAuthor.keys}")
-     */
+
 
     //maxBy-minBy
-    /*
+
     val longestBook = books.maxBy { it.pages }
     println("Longest book: ${longestBook.title} (${longestBook.pages} pages)")
-     */
 
     //What happens if the list is empty?
-    /*
+
+
     val longestBook = books.maxBy { it.pages }
     if (longestBook != null) {
         println("Longest book: ${longestBook.title} (${longestBook.pages} pages)")
     } else {
         println("There are no books in the list.")
     }
-     */
+
 }
 
