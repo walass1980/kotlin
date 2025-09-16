@@ -16,5 +16,33 @@ fun main() {
     )
 
     val (longBooks, shortBooks) = books.partition { it.pages > 400 }
+
+    //sorterBy
+    /*
+    val booksByYear = books.sortedBy { it.year }
+    println("Books sorted by year: ${booksByYear.map { "${it.title} (${it.year})" }}")
+     */
+
+    //associatedBy
+    /*
+    val booksByAuthor = books.associateBy { it.author }
+    println("Books by author: ${booksByAuthor.keys}")
+     */
+
+    //maxBy-minBy
+    /*
+    val longestBook = books.maxBy { it.pages }
+    println("Longest book: ${longestBook.title} (${longestBook.pages} pages)")
+     */
+
+    //What happens if the list is empty?
+    /*
+    val longestBook = books.maxBy { it.pages }
+    if (longestBook != null) {
+        println("Longest book: ${longestBook.title} (${longestBook.pages} pages)")
+    } else {
+        println("There are no books in the list.")
+    }
+     */
 }
 
