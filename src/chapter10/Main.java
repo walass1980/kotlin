@@ -10,7 +10,7 @@ public class Main {
                 new Product("Phone", "Electronics", 1500.0),
                 new Product("Shoes", "Clothing", 120.0),
                 new Product("Jacket", "Clothing", 150.0),
-                new Product("Book", "Books", 30.0)
+                new Product("chapter11", "Books", 30.0)
         );
 
         Map<String, Double> totalsByCategory = products.stream()

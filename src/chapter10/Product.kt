@@ -7,7 +7,7 @@ fun main() {
         Product("Phone", "Electronics", 800.0),
         Product("Shoes", "Clothing", 120.0),
         Product("Jacket", "Clothing", 150.0),
-        Product("Book", "Books", 30.0)
+        Product("chapter11", "Books", 30.0)
 
     )
 
